@@ -14,4 +14,10 @@
     @apply  active:bg-gray-800   hover:bg-gray-400   focus:ring-gray-400  bg-gray-500 ;
 }
 }
-
+@layer base{
+    [type='text'],
+    [type='password'],
+    select {
+        @apply w-full rounded border-gray-300 focus:border-indigo-400 focus:ring-indigo-500;
+    }
+}

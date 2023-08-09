@@ -45,10 +45,48 @@ function App() {
           />
         </div>
       </div>
-      <div className='mt-5 container grid gap-6 grid-cols-3'>
-      {data.map(dest=>(
-        <DestCard dest={dest} key={dest.city}/>
-      ))}
+      <div className="mt-5 container grid gap-6 grid-cols-3">
+        {data.map((dest) => (
+          <DestCard dest={dest} key={dest.city} />
+        ))}
+      </div>
+      <div className="container">
+        <div className="max-w-sm mx-auto shadow-lg bg-white my-5 border p-5">
+          <form action="#" method="POST" className=" space-y-3">
+            <label for="fname" className=" w-full  ">
+              First name:
+            </label>
+            <input
+              type="text"
+              className=""
+            />
+            <label for="lname" className=" w-full">
+              Last name:
+            </label>
+            <input
+              type="text"
+              className=" "
+            />
+            <select className="  ">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+            <div>
+              <input
+                type="checkbox"
+                id="demoCheckbox"
+                name="checkbox"
+                value="1"
+                className='rounded border-gray-300 text-indigo-400 focus:border-indigo-400 focus:ring-indigo-500'
+              />
+              <label for="demoCheckbox"> Check me!</label>
+            </div>
+            <input type="submit" value="Submit" className="btn btn-primary" />
+          </form>
+        </div>
       </div>
     </div>
   );

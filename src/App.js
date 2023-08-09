@@ -24,7 +24,7 @@ function App() {
             </p>
             <div className="mt-4">
               <a
-                className="bg-indigo-500 text-white px-4 py-2 inline-block rounded-lg uppercase tracking-wide font-semi-bold text-sm"
+                className="active:bg-indigo-800 active:-translate-y-0.5  hover:bg-indigo-400 hover:-translate-y-0.5 transform translation focus:ring focus:ring-indigo-400 focus:ring-opacity-50   focus:ring-offset-2 bg-indigo-500 text-white px-4 py-2 inline-block rounded-lg uppercase tracking-wide font-semi-bold text-sm"
                 href="#"
               >
                 Learn more

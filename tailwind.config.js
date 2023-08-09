@@ -9,6 +9,12 @@ module.exports = {
       padding: '2rem',
     },
   },
+  variants: {
+    extend: {
+
+      backgroundColor: ['active'],
+    },
+  },
   plugins: [],
 }
 

@@ -1,7 +1,9 @@
+import data from './data/dest.js';
+import DestCard from './component/destCard.js';
 function App() {
   return (
-    <div className="bg-gray-100 min-h-screen ">
-      <div className="grid lg:grid-cols-2">
+    <div className=" min-h-screen ">
+      <div className="grid bg-gray-100 lg:grid-cols-2">
         <div className=" max-w-md lg:max-w-full mx-auto sm:max-w-xl">
           <div className="px-8 py-12 lg:px-12 lg:py-24">
             <img
@@ -42,6 +44,11 @@ function App() {
             className="absolute inset-0 w-full h-full object-cover object-center"
           />
         </div>
+      </div>
+      <div className='grid gap-6 grid-cols-3'>
+      {data.map(dest=>(
+        <DestCard dest={dest} key={dest.city}/>
+      ))}
       </div>
     </div>
   );

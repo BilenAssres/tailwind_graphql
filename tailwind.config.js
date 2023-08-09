@@ -8,6 +8,11 @@ module.exports = {
       center: true,
       padding: '2rem',
     },
+    extend: {
+      colors:{
+        primary: '#0070f3',
+      }
+    }
   },
   variants: {
     extend: {

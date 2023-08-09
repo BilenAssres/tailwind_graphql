@@ -22,12 +22,15 @@ function App() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
               quidem?
             </p>
-            <div className="mt-4">
+            <div className="mt-4 space-x-3">
               <a
-                className="active:bg-indigo-800 active:-translate-y-0.5  hover:bg-indigo-400 hover:-translate-y-0.5 transform translation focus:ring focus:ring-indigo-400 focus:ring-opacity-50   focus:ring-offset-2 bg-indigo-500 text-white px-4 py-2 inline-block rounded-lg uppercase tracking-wide font-semi-bold text-sm"
+                className="btn btn-primary active:-translate-y-0.5 transform hover:-translate-y-0.5"
                 href="#"
               >
                 Learn more
+              </a>
+              <a className="btn btn-secondary" href="#">
+                Click
               </a>
             </div>
           </div>

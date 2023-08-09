@@ -45,7 +45,7 @@ function App() {
           />
         </div>
       </div>
-      <div className='grid gap-6 grid-cols-3'>
+      <div className='mt-5 container grid gap-6 grid-cols-3'>
       {data.map(dest=>(
         <DestCard dest={dest} key={dest.city}/>
       ))}

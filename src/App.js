@@ -1,29 +1,29 @@
 function App() {
   return (
-    <div className="bg-blue-700">
-      <div className="container">
-        <button className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 rounded">
-          Find Friends
-        </button>
-        <button className="btn btn-blue">
-          Find Group
-        </button>
-
-        <div className="bg-red-400 border border-red-400 text-red-700 px-4 py-3 rounded relative my-5" role="alert">
-          <strong className="font-bold">Error!</strong>
-          <span className="block sm:inline">Something went wrong.</span>
-        </div>
-
-        <div className="max-w-sm mx-auto flex p-6 bg-white rounded-lg shadow-xl">
-          <div className="flex-shrink-0">
-            <img className="h-12 w-12" src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
-          </div>
-          <div className="ml-6 pt-1">
-            <h4 className="text-xl font-medium text-gray-900">
-              Tom Cook
-            </h4>
-            <p className="text-base text-gray-500">You have a notification</p>
-          </div>
+    <div className="bg-gray-100 min-h-screen">
+      <div className="px-8 py-12">
+        <img
+          src="https://www.freepnglogos.com/uploads/netflix-logo-0.png"
+          alt="Netflix Logo"
+          className="h-10"
+        />
+        <img
+          src="https://plus.unsplash.com/premium_photo-1667327925692-532fcd1809ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2926&q=80"
+          alt="Netflix Logo"
+          className="mt-6 rounded-xl shadow-xl h-48"
+        />
+        <h1 className="text-2xl font-bold mt-6 text-gray-900">
+          You can work from anywhere.{' '}
+          <span className="text-indigo-500">Take advantage of it. </span>{' '}
+        </h1>
+        <p className="mt-2 text-gray-600">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+          quidem?
+        </p>
+        <div className="mt-4">
+          <a className="bg-indigo-500 text-white px-4 py-2 inline-block rounded-lg uppercase tracking-wide font-semi-bold text-sm" href="#">
+            Learn more
+          </a>
         </div>
       </div>
     </div>
